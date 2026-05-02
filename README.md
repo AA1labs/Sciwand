@@ -32,7 +32,6 @@ Latest releases: https://github.com/AA1labs/Sciwand/releases/latest
 | macOS | Apple Silicon + Intel (universal) | `Sciwand_X.Y.Z_universal.dmg` |
 | Windows | x86_64 | `Sciwand_X.Y.Z_x64-setup.exe` |
 | Linux | x86_64 (AppImage) | `Sciwand_X.Y.Z_amd64.AppImage` |
-| Linux | x86_64 (deb) | `Sciwand_X.Y.Z_amd64.deb` |
 
 ## macOS
 
@@ -44,15 +43,9 @@ Run `Sciwand_X.Y.Z_x64-setup.exe`. SmartScreen may show "Windows protected your 
 
 ## Linux
 
-**AppImage:**
 ```sh
 chmod +x Sciwand_X.Y.Z_amd64.AppImage
 ./Sciwand_X.Y.Z_amd64.AppImage
-```
-
-**Debian/Ubuntu (.deb):**
-```sh
-sudo dpkg -i Sciwand_X.Y.Z_amd64.deb
 ```
 
 ## Auto-updates
