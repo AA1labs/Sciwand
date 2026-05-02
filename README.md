@@ -34,30 +34,9 @@ Latest releases: https://github.com/AA1labs/Sciwand/releases/latest
 | Linux | x86_64 (AppImage) | `Sciwand_X.Y.Z_amd64.AppImage` |
 | Linux | x86_64 (deb) | `Sciwand_X.Y.Z_amd64.deb` |
 
-## macOS first-launch warning (alpha builds)
+## macOS
 
-> **Heads up:** Alpha builds are signed with a Developer ID certificate but not Apple-notarized (Apple's notary service has been holding our submissions). On first launch macOS blocks the app with: *"Apple could not verify Sciwand is free of malware..."*
-
-**Recommended (Terminal, one command):**
-
-```sh
-sudo xattr -dr com.apple.quarantine /Applications/Sciwand.app
-```
-
-Then double-click Sciwand normally. Done.
-
-**No-Terminal alternative (System Settings):**
-
-1. Mount the DMG and drag `Sciwand` to `/Applications`
-2. Try to open Sciwand. macOS blocks it. Click **Done** on the warning.
-3. Open **System Settings -> Privacy & Security**
-4. Scroll to the bottom. You'll see *"Sciwand was blocked to protect your Mac"*. Click **Open Anyway**.
-5. Confirm with Touch ID or your Mac password.
-6. Click **Open** in the next dialog.
-
-> macOS Sequoia (15+) removed the older right-click -> Open shortcut for unnotarized apps. The above is the only path on Sequoia.
->
-> The build itself is fully signed with hardened runtime and entitlements. Once Apple notary clears, future releases launch without any of this (and existing installs auto-update to a notarized build).
+Mount the DMG and drag `Sciwand` to `/Applications`. Double-click to launch. Sciwand is signed with a Developer ID certificate and Apple-notarized, so no first-launch warning or workaround is needed.
 
 ## Windows
 
