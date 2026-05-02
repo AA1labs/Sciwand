@@ -2,8 +2,6 @@
 
 A SuperAI overlay for your research knowledge base. Connects to Zotero, EndNote, and Mendeley, with a built-in PDF viewer and integrated AI features.
 
-> Source code lives in a private repository. This repository hosts public release binaries only.
-
 ## What it does
 
 **Document analysis.** Chat with your library. Every AI answer is referenced, so you can trace each claim back to the source. View citing articles, references, and an in-app citation graph (like Connected Papers or Research Rabbit) with direct access to any paper.
@@ -32,6 +30,7 @@ Latest releases: https://github.com/AA1labs/Sciwand/releases/latest
 | macOS | Apple Silicon + Intel (universal) | `Sciwand_X.Y.Z_universal.dmg` |
 | Windows | x86_64 | `Sciwand_X.Y.Z_x64-setup.exe` |
 | Linux | x86_64 (AppImage) | `Sciwand_X.Y.Z_amd64.AppImage` |
+| Linux | arm64 (AppImage) | `Sciwand_X.Y.Z_aarch64.AppImage` |
 
 ## macOS
 
@@ -43,9 +42,16 @@ Run `Sciwand_X.Y.Z_x64-setup.exe`. SmartScreen may show "Windows protected your 
 
 ## Linux
 
+Pick the AppImage that matches your CPU architecture (`uname -m` shows `x86_64` for Intel/AMD, `aarch64` for ARM):
+
 ```sh
+# x86_64 (Intel/AMD)
 chmod +x Sciwand_X.Y.Z_amd64.AppImage
 ./Sciwand_X.Y.Z_amd64.AppImage
+
+# arm64 (Apple Silicon Asahi, Raspberry Pi 4/5 64-bit, ARM cloud VMs)
+chmod +x Sciwand_X.Y.Z_aarch64.AppImage
+./Sciwand_X.Y.Z_aarch64.AppImage
 ```
 
 ## Auto-updates
