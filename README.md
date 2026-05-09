@@ -1,6 +1,6 @@
 # Sciwand
 
-A SuperAI overlay for your research knowledge base. Connects to Zotero, EndNote, and Mendeley, with a built-in PDF viewer and integrated AI features.
+A SuperAI overlay for your research knowledge base. Connects to Zotero, EndNote, Mendeley, and Bookends (reference managers), with a built-in PDF viewer and integrated AI features.
 
 ## What it does
 
