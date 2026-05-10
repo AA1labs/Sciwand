@@ -34,11 +34,11 @@ Latest releases: https://github.com/AA1labs/Sciwand/releases/latest
 
 ## macOS
 
-Mount the DMG and drag `Sciwand` to `/Applications`. Double-click to launch. Sciwand is signed with a Developer ID certificate and Apple-notarized, so no first-launch warning or workaround is needed.
+Mount the DMG and drag `Sciwand` to `/Applications`. Double-click to launch.
 
 ## Windows
 
-Run `Sciwand_X.Y.Z_x64-setup.exe`. SmartScreen may show "Windows protected your PC". Click **More info -> Run anyway**. Sciwand isn't EV-signed for Windows yet.
+Run `Sciwand_X.Y.Z_x64-setup.exe`.
 
 ## Linux
 
@@ -64,4 +64,4 @@ Please open an issue on this repository for bugs, crashes, and feedback.
 
 ## License
 
-Proprietary. (c) AA1 Labs. See in-app About -> Legal for details.
+Proprietary. (c) AA1 Labs.
