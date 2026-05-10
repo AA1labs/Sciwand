@@ -2,6 +2,8 @@
 
 A SuperAI overlay for your research knowledge base. Connects to Zotero, EndNote, Mendeley, and Bookends (reference managers), with a built-in PDF viewer and integrated AI features.
 
+Website: Sciwand.com
+
 ## What it does
 
 **Document analysis.** Chat with your library. Every AI answer is referenced, so you can trace each claim back to the source. View citing articles, references, and an in-app citation graph (like Connected Papers or Research Rabbit) with direct access to any paper.
